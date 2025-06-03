@@ -1,3 +1,11 @@
+// Docker-platform for building,running,sharing containerized applications; uses OS level virtualization tech; lighter than full fledged VM; provides isolated env with consistent behavior across systems.
+// Registry-stores and distributes Docker images
+// Docker daemon-manages containers via REST API
+// Images-read only templates for creating containers
+// Containers-isolated,runnable instances of images
+// Dockerfiles=recipe for creating image
+// 
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
